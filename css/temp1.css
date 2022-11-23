@@ -12,10 +12,7 @@ body {
 
 }
 
-.parent {
-    background-color: #eee;
 
-}
 
 .container {
 
@@ -58,8 +55,46 @@ body {
 
 }
 
-.header.container {
+.container .links {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+.header .logo{
+    width: 120px;
+}
+.header .links{
+    position: relative;
+}
+.header .links .icon{
+    width: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-end;
+
+}
+.header .links .icon .span {
+    background-color:#333;
+    margin-bottom: 5px;
+
+}
+.header .links .icon .span:first-child{
+    height: 2px;
+    width: 100%;
+
+}
+.header .links .icon .span:nth-child(2){
+
+height: 2px;
+width:60% ;
+}
+.header .links .icon .span:last-child{
+
+height:2px ;
+width:100% ;
+}
+
+
+
+
+/*end header*/
